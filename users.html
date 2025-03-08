@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page using Tailwind CSS</title>
+
+    <!-- Tailwind CDN -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+
+
+<body>
+
+
+
+    <section class="min-h-[1200px] bg-[#EDEDE2] flex items-center">
+
+        <div class="w-full max-w-[64%] mx-auto">
+
+
+
+            <!-- BOX -->
+            <div class="bg-white rounded-4xl shadow-md p-[100px]">
+
+
+                <h1 class="text-5xl text-dark font-semibold">Our Talents</h1>
+
+
+                <div class="flex items-center gap-5 mt-10">
+
+                    <form class="w-full max-w-[300px]">
+                        <div class="relative">
+                            <div class="absolute inset-y-0 start-0 flex items-center ps-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                                </svg>
+                            </div>
+                            <input type="search"
+                                class="w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50"
+                                placeholder="Search for talents..." />
+                        </div>
+                    </form>
+
+
+                    <div class="ms-auto">
+                        <ul class="flex gap-3">
+                            <li class="px-4 py-2 bg-[#fff] border border-[#999] rounded-4xl text-dark">UX/UI</li>
+                            <li class="px-4 py-2 bg-[#FD4300] rounded-4xl text-white">Front-end</li>
+                            <li class="px-4 py-2 bg-[#fff] border border-[#999] rounded-4xl text-dark">Back-end</li>
+                            <li class="px-4 py-2 bg-[#fff] border border-[#999] rounded-4xl text-dark">Data Science</li>
+                            <li class="px-4 py-2 bg-[#fff] border border-[#999] rounded-4xl text-dark">SEO</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+
+                <div class="grid grid-cols-3 gap-6 mt-20">
+
+
+
+                    <div class="bg-[#DED7F9] min-h-[210px] rounded-3xl p-5">
+
+                        <div class="flex gap-4 items-center">
+
+                            <div class="w-[100px] h-[100px] overflow-hidden rounded-full p-1 bg-[#fff]">
+                                <img src="girl-3.jpg" class="max-w-full h-auto rounded-full" alt="">
+                            </div>
+
+                            <div>
+                                <h4 class="text-dark text-lg font-bold">Zendaya clark</h4>
+                                <p>San Diego, California</p>
+                            </div>
+
+                        </div>
+
+                        <ul class="flex flex-wrap gap-1 gap-y-2 mt-5">
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">JS</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">React</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Next</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">HTML5</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">GSAP</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">CSS3</li>
+                        </ul>
+
+                    </div>
+
+
+                    <div class="bg-[#DED7F9] min-h-[210px] rounded-3xl p-5">
+
+
+                        <div class="flex gap-4 items-center">
+
+                            <div class="w-[100px] h-[100px] overflow-hidden rounded-full p-1 bg-[#fff]">
+                                <img src="girl-2.jpg" class="max-w-full h-auto rounded-full" alt="">
+                            </div>
+
+                            <div>
+                                <h4 class="text-dark text-lg font-bold">Scarlett Johansson</h4>
+                                <p>Phoenix, Arizona</p>
+                            </div>
+
+                        </div>
+
+
+                        <ul class="flex flex-wrap gap-1 gap-y-2 mt-5">
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Vite</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Webpack</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Parcel</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Netlify</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Vercel</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Jetpack</li>
+                        </ul>
+                        
+
+                    </div>
+
+
+                    <div class="bg-[#DED7F9] min-h-[210px] rounded-3xl p-5">
+
+                        <div class="flex gap-4 items-center">
+
+                            <div class="w-[100px] h-[100px] overflow-hidden rounded-full p-1 bg-[#fff]">
+                                <img src="girl-3.jpg" class="max-w-full h-auto rounded-full" alt="">
+                            </div>
+
+                            <div>
+                                <h4 class="text-dark text-lg font-bold">Angelina Jolie</h4>
+                                <p>Denver, Colorado</p>
+                            </div>
+
+                        </div>
+
+                        <ul class="flex flex-wrap gap-1 gap-y-2 mt-5">
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">ES6+</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">TypeScript</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">jQuery</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Alpine.js</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Node.js</li>
+                        </ul>
+                        
+
+                    </div>
+
+
+                    <div class="bg-[#DED7F9] min-h-[210px] rounded-3xl p-5">
+
+                        <div class="flex gap-4 items-center">
+
+                            <div class="w-[100px] h-[100px] overflow-hidden rounded-full p-1 bg-[#fff]">
+                                <img src="girl-2.jpg" class="max-w-full h-auto rounded-full" alt="">
+                            </div>
+
+                            <div>
+                                <h4 class="text-dark text-lg font-bold">Jennifer Lawrence</h4>
+                                <p>Austin, Texas</p>
+                            </div>
+
+                        </div>
+
+                        <ul class="flex flex-wrap gap-1 gap-y-2 mt-5">
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Bootstrap</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Tailwind CSS</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Material UI</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Chakra UI</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Ant Design</li>
+                        </ul>
+                        
+                    </div>
+
+
+                    <div class="bg-[#DED7F9] min-h-[210px] rounded-3xl p-5">
+
+                        <div class="flex gap-4 items-center">
+
+                            <div class="w-[100px] h-[100px] overflow-hidden rounded-full p-1 bg-[#fff]">
+                                <img src="girl-3.jpg" class="max-w-full h-auto rounded-full" alt="">
+                            </div>
+
+                            <div>
+                                <h4 class="text-dark text-lg font-bold">Emma Stone</h4>
+                                <p>Seattle, Washington</p>
+                            </div>
+
+                        </div>
+
+
+                        <ul class="flex flex-wrap gap-1 gap-y-2 mt-5">
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">GSAP</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Framer Motion</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Lottie</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Three.js</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Anime.js</li>
+                        </ul>                        
+
+                    </div>
+
+
+                    <div class="bg-[#DED7F9] min-h-[210px] rounded-3xl p-5">
+
+                        <div class="flex gap-4 items-center">
+
+                            <div class="w-[100px] h-[100px] overflow-hidden rounded-full p-1 bg-[#fff]">
+                                <img src="girl-2.jpg" class="max-w-full h-auto rounded-full" alt="">
+                            </div>
+
+                            <div>
+                                <h4 class="text-dark text-lg font-bold">Sofia bernal</h4>
+                                <p>Pasadena, LA</p>
+                            </div>
+
+                        </div>
+
+                        <ul class="flex flex-wrap gap-1 gap-y-2 mt-5">
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Redux</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Recoil</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Zustand</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">TanStack Query</li>
+                            <li class="text-xs px-3 py-1 bg-[#fff] border border-[#999] rounded-full">Axios</li>
+                        </ul>
+                        
+
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+</body>
+
+</html>

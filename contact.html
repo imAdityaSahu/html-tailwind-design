@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page using Tailwind CSS</title>
+
+    <!-- Tailwind CDN -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+
+<body>
+
+
+    <main>
+
+
+        <!-- SECTION -->
+        <section class="bg-blue py-20 h-100vh scroll-hidden">
+
+            <div class="container mx-auto">
+
+
+                <div class="flex flex-wrap">
+
+
+
+                    <div class="w-1/2 pe-4">
+
+                        <img src="girl-1.jpg" class="rounded-3xl w-full max-w-full h-auto" alt="Girl Image">
+
+                    </div>
+
+
+
+                    <div class="w-1/2 bg-green-200 rounded-3xl px-9 py-12 flex flex-col">
+
+                        <h1 class="text-5xl font-semibold text-green-700">Contact Us</h1>
+
+                        <p class="text-xl text-gray-800 pt-3">Our team would love to hear from you.</p>
+
+
+                        <div class="pt-9 mt-9 border-dashed border-t-2 border-gray-500 mt-auto">
+
+                            <form class="flex flex-wrap gap-y-9">
+
+                                <div class="w-1/2 flex flex-col pe-3">
+                                    <label class="mb-2" for="firstName">First name</label>
+                                    <input type="text" id="firstName" class="border-1 border-gray-500 rounded-sm p-3">
+                                </div>
+
+                                <div class="w-1/2 flex flex-col ps-3">
+                                    <label class="mb-2" for="lastName">Last name</label>
+                                    <input type="text" id="lastName" class="border-1 border-gray-500 rounded-sm p-3">
+                                </div>
+
+                                <div class="w-full flex flex-col">
+                                    <label class="mb-2" for="email">Email address</label>
+                                    <input type="email" id="email" class="border-1 border-gray-500 rounded-sm p-3">
+                                </div>
+
+                                <div class="w-full flex flex-col">
+                                    <label class="mb-2" for="phoneNumber">Phone Number</label>
+                                    <input type="text" id="phoneNumber" class="border-1 border-gray-500 rounded-sm p-3">
+                                </div>
+
+                                <div class="w-full flex flex-col">
+                                    <label class="mb-2" for="yourMessage">Your Message</label>
+                                    <textarea id="yourMessage" class="border-1 border-gray-500 rounded-sm p-3 min-h-30"></textarea>
+                                </div>
+
+
+                                <button type="submit" class="w-full bg-green-500 rounded-sm text-lg font-semibold text-white py-3">Get in touch!</button>
+
+                                
+                            </form>
+
+                        </div>
+
+
+                    </div>
+                  
+
+                </div>
+
+
+            </div>
+
+        </section>
+        <!-- /SECTION -->
+
+
+    </main>
+    
+
+    
+</body>
+
+</html>
